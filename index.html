@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wedding Invitation</title>
+
+    <!-- Bootstrap 5 -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     NAVBAR
+========================================================= -->
+
+<nav class="navbar">
+
+    <div class="container">
+
+        <div class="navbar-nav">
+
+            <a class="nav-link" href="#">
+                Home
+            </a>
+
+            <a class="nav-link" href="#invitation">
+                About
+            </a>
+
+            <a class="nav-link" href="#details">
+                Details
+            </a>
+
+            <a class="nav-link" href="#gallery">
+                Gallery
+            </a>
+
+            <a class="nav-link" href="#rsvp">
+                RSVP
+            </a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- =========================================================
+     WEDDING HERO
+========================================================= -->
+
+<section class="hero">
+
+    <img
+        src="pic/c1.jpg"
+        alt="Wedding"
+    >
+
+    <div class="wedding-names">
+
+        <div class="initials">
+
+            R
+
+            <span class="and">
+                and
+            </span>
+
+            C
+
+        </div>
+
+        <div class="couple-names">
+            RICK JAYSON • CHINNY MAE
+        </div>
+
+        <div class="getting-married">
+            are getting married
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     PHOTO GALLERY
+========================================================= -->
+
+<section
+    class="gallery-section"
+    id="gallery"
+>
+
+    <div class="gallery-header">
+
+        <div class="gallery-script">
+            Our
+        </div>
+
+        <h1 class="gallery-title">
+            GALLERY
+        </h1>
+
+        <p class="gallery-subtitle">
+            A collection of moments we will always cherish
+        </p>
+
+    </div>
+
+
+    <!-- =====================================================
+         BOOTSTRAP CAROUSEL
+    ====================================================== -->
+
+    <div
+        id="weddingGallery"
+        class="carousel slide wedding-carousel"
+        data-bs-ride="carousel"
+        data-bs-interval="4000"
+        data-bs-pause="false"
+    >
+
+
+        <!-- =================================================
+             INDICATORS
+        ================================================== -->
+
+        <div class="carousel-indicators">
+
+            <button
+                type="button"
+                data-bs-target="#weddingGallery"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1">
+            </button>
+
+            <button
+                type="button"
+                data-bs-target="#weddingGallery"
+                data-bs-slide-to="1"
+                aria-label="Slide 2">
+            </button>
+
+            <button
+                type="button"
+                data-bs-target="#weddingGallery"
+                data-bs-slide-to="2"
+                aria-label="Slide 3">
+            </button>
+
+            <button
+                type="button"
+                data-bs-target="#weddingGallery"
+                data-bs-slide-to="3"
+                aria-label="Slide 4">
+            </button>
+
+            <button
+                type="button"
+                data-bs-target="#weddingGallery"
+                data-bs-slide-to="4"
+                aria-label="Slide 5">
+            </button>
+
+            <button
+                type="button"
+                data-bs-target="#weddingGallery"
+                data-bs-slide-to="5"
+                aria-label="Slide 6">
+            </button>
+
+            <button
+                type="button"
+                data-bs-target="#weddingGallery"
+                data-bs-slide-to="6"
+                aria-label="Slide 7">
+            </button>
+
+            <button
+                type="button"
+                data-bs-target="#weddingGallery"
+                data-bs-slide-to="7"
+                aria-label="Slide 8">
+            </button>
+
+            <button
+                type="button"
+                data-bs-target="#weddingGallery"
+                data-bs-slide-to="8"
+                aria-label="Slide 9">
+            </button>
+
+            <button
+                type="button"
+                data-bs-target="#weddingGallery"
+                data-bs-slide-to="9"
+                aria-label="Slide 10">
+            </button>
+
+        </div>
+
+
+
+        <!-- =================================================
+             SLIDES
+        ================================================== -->
+
+        <div class="carousel-inner">
+
+
+            <!-- PHOTO 1 -->
+
+            <div class="carousel-item active">
+
+                <img
+                    src="pic/pic1.jpg"
+                    class="d-block gallery-image"
+                    alt="Wedding photo 1"
+                >
+
+            </div>
+
+
+            <!-- PHOTO 2 -->
+
+            <div class="carousel-item">
+
+                <img
+                    src="pic/pic2.jpg"
+                    class="d-block gallery-image"
+                    alt="Wedding photo 2"
+                >
+
+            </div>
+
+
+            <!-- PHOTO 3 -->
+
+            <div class="carousel-item">
+
+                <img
+                    src="pic/pic3.jpg"
+                    class="d-block gallery-image"
+                    alt="Wedding photo 3"
+                >
+
+            </div>
+
+
+            <!-- PHOTO 4 -->
+
+            <div class="carousel-item">
+
+                <img
+                    src="pic/pic4.jpg"
+                    class="d-block gallery-image"
+                    alt="Wedding photo 4"
+                >
+
+            </div>
+
+
+            <!-- PHOTO 5 -->
+
+            <div class="carousel-item">
+
+                <img
+                    src="pic/pic5.jpg"
+                    class="d-block gallery-image"
+                    alt="Wedding photo 5"
+                >
+
+            </div>
+
+
+            <!-- PHOTO 6 -->
+
+            <div class="carousel-item">
+
+                <img
+                    src="pic/pic6.jpg"
+                    class="d-block gallery-image"
+                    alt="Wedding photo 6"
+                >
+
+            </div>
+
+
+            <!-- PHOTO 7 -->
+
+            <div class="carousel-item">
+
+                <img
+                    src="pic/pic7.jpg"
+                    class="d-block gallery-image"
+                    alt="Wedding photo 7"
+                >
+
+            </div>
+
+
+            <!-- PHOTO 8 -->
+
+            <div class="carousel-item">
+
+                <img
+                    src="pic/pic8.jpg"
+                    class="d-block gallery-image"
+                    alt="Wedding photo 8"
+                >
+
+            </div>
+
+
+            <!-- PHOTO 9 -->
+
+            <div class="carousel-item">
+
+                <img
+                    src="pic/pic9.jpg"
+                    class="d-block gallery-image"
+                    alt="Wedding photo 9"
+                >
+
+            </div>
+
+
+            <!-- PHOTO 10 -->
+
+            <div class="carousel-item">
+
+                <img
+                    src="pic/pic10.jpg"
+                    class="d-block gallery-image"
+                    alt="Wedding photo 10"
+                >
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             PREVIOUS BUTTON
+        ================================================== -->
+
+        <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#weddingGallery"
+            data-bs-slide="prev"
+        >
+
+            <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true">
+            </span>
+
+            <span class="visually-hidden">
+                Previous
+            </span>
+
+        </button>
+
+
+
+        <!-- =================================================
+             NEXT BUTTON
+        ================================================== -->
+
+        <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#weddingGallery"
+            data-bs-slide="next"
+        >
+
+            <span
+                class="carousel-control-next-icon"
+                aria-hidden="true">
+            </span>
+
+            <span class="visually-hidden">
+                Next
+            </span>
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- =========================================================
+     INVITATION MESSAGE
+========================================================= -->
+
+<section
+    class="invitation-section"
+    id="invitation"
+>
+
+    <div class="invitation-ornament">
+
+        <span class="ornament-line"></span>
+
+        <span class="ornament-center">
+            ♥
+        </span>
+
+        <span class="ornament-line"></span>
+
+    </div>
+
+
+    <h1 class="invitation-title">
+
+        WITH LOVE AS OUR FOUNDATION AND FAITH
+
+        <br>
+
+        IN OUR HEARTS
+
+    </h1>
+
+
+    <div class="invitation-we">
+        WE
+    </div>
+
+
+    <p class="invitation-text">
+
+        JOYFULLY INVITE YOU TO CELEBRATE THE BEGINNING
+
+        <br class="desktop-break">
+
+        OF OUR MARRIAGE, AS WE PROMISE TO JOURNEY
+
+        <br class="desktop-break">
+
+        THROUGH LIFETIME TOGETHER HAND IN HAND,
+
+        <br class="desktop-break">
+
+        CHERISHING
+        <span class="highlight">LOVE</span>,
+        <span class="highlight">LAUGHTER</span>,
+        AND ENDLESS
+
+        <br class="desktop-break">
+
+        MEMORIES.
+
+    </p>
+
+
+    <div class="invitation-heart">
+        ♡
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     WEDDING CEREMONY / DATE
+========================================================= -->
+
+<section
+    class="wedding-details"
+    id="details"
+>
+
+    <p class="ceremony-text">
+        The Ceremony Will Be Held At
+    </p>
+
+
+    <h1 class="church-name">
+        San Pedro Calungsod Parish
+    </h1>
+
+
+    <p class="location">
+        New Isabela, Tacurong City, Sultan Kudarat
+    </p>
+
+
+    <hr class="details-line">
+
+
+    <h2 class="wedding-date">
+        26 September 2026
+    </h2>
+
+
+    <p class="reception-details">
+
+        AT 10:00 AM |
+        QETSIYAH ECO-PARK,
+        BRGY. CALEAN,
+
+        <br>
+
+        TACURONG CITY
+
+    </p>
+
+
+    <hr class="bottom-line">
+
+
+    <p class="hashtag">
+        #RJAYFoundHisDesCHINny
+    </p>
+
+</section>
+<!-- =========================================================
+     THE ENTOURAGE
+========================================================= -->
+
+<section
+    class="entourage-section"
+    id="entourage"
+>
+
+    <div class="entourage-header">
+
+        <div class="entourage-script">
+            The
+        </div>
+
+        <div class="entourage-title">
+            ENTOURAGE
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         PARENTS
+    ====================================================== -->
+
+    <div class="container-fluid parents-section">
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <div class="parents-group">
+
+                    <h2 class="parents-title">
+                        Parents of the Groom
+                    </h2>
+
+                    <div class="names">
+
+                        <div>
+                            ALEX C. MOSONES
+                        </div>
+
+                        <div>
+                            ERLINDA L. MOSONES
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6">
+
+                <div class="parents-group">
+
+                    <h2 class="parents-title">
+                        Parents of the Bride
+                    </h2>
+
+                    <div class="names">
+
+                        <div>
+                            DEMETRIO M. JAVIER
+                        </div>
+
+                        <div>
+                            GEMALYN L. JAVIER
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         PRINCIPAL SPONSORS
+    ====================================================== -->
+
+    <div class="container-fluid principal-section">
+
+        <h2 class="principal-title">
+            Principal Sponsors
+        </h2>
+
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <div class="principal-names">
+
+                    <div>MRS. CHARES L. CORNEL</div>
+                    <div>MRS. MAYET B. BAJO</div>
+                    <div>MRS. LOLLY B. ESTACION</div>
+                    <div>DR. EVELYN V. DOLLETE</div>
+                    <div>MRS. MARISA L. KURIWAKI</div>
+                    <div>DONENILA J. DELOS SANTOS</div>
+                    <div>MRS. JEVINCE JAY S. JUBAY</div>
+                    <div>MRS. AMY B. OBERA</div>
+                    <div>MRS. LEBELLA B. OLIVO</div>
+                    <div>MRS. ANNIE D. TAN</div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6">
+
+                <div class="principal-names">
+
+                    <div>MR. LARRY A. CORNEL</div>
+                    <div>MR. JAY VILLANUEVA</div>
+                    <div>MR. ELMER G. BASINGA</div>
+                    <div>MR. ROMULO VENTURA</div>
+                    <div>MR. RONALD A. FERRER</div>
+                    <div>MR. VERGILLIO M. JAVIER</div>
+                    <div>MR. VIRGINIO B. PAREJADO</div>
+                    <div>MR. VENERANDO C. OBERA</div>
+                    <div>MR. WALTER S. OLIVO</div>
+                    <div>MR. VIRGILLIO D. TAN JR.</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         SECONDARY SPONSORS
+    ====================================================== -->
+
+    <h1 class="secondary-title">
+        Secondary Sponsors
+    </h1>
+
+
+    <div class="container-fluid">
+
+
+        <!-- ROW 1 -->
+
+        <div class="row secondary-row-one">
+
+            <div class="col-md-6">
+
+                <div class="entourage-group">
+
+                    <h2 class="group-title">
+                        To cloth us one
+                    </h2>
+
+                    <div class="names">
+
+                        <div>
+                            MRS. HAZEL KRISTINE G. LOY
+                        </div>
+
+                        <div>
+                            MR. DON DEL ROSARIO S. LOY
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6">
+
+                <div class="entourage-group">
+
+                    <h2 class="group-title">
+                        To light our path
+                    </h2>
+
+                    <div class="names">
+
+                        <div>
+                            MRS. GERALDINE L. MAGANA
+                        </div>
+
+                        <div>
+                            MR. LOPEZ MAGANA
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ROW 2 -->
+
+        <div class="row secondary-row-two">
+
+            <div class="col-md-4">
+
+                <div class="entourage-group">
+
+                    <h2 class="group-title">
+                        Groomsmen
+                    </h2>
+
+                    <div class="names">
+
+                        <div>JAY LOU L. MAGANA</div>
+                        <div>MARK ALTHEO V. LOPEZ</div>
+                        <div>CARLO P. JAVIER</div>
+                        <div>JAY-R L. MEJIA</div>
+                        <div>HARVEY J. DELOS SANTOS</div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="entourage-group">
+
+                    <h2 class="group-title">
+                        To bind us together
+                    </h2>
+
+                    <div class="names">
+
+                        <div>
+                            MRS. CHRISTALYN L. NIMEZ
+                        </div>
+
+                        <div>
+                            MR. HENRY NIMEZ
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="entourage-group">
+
+                    <h2 class="group-title">
+                        Bridesmaid
+                    </h2>
+
+                    <div class="names">
+
+                        <div>MIU MAE O. MOSONES</div>
+                        <div>NEÑA JANE L. JAVIER</div>
+                        <div>JEANIE MAY J. GASTON</div>
+                        <div>APRIL MARGARETTE J. CALLEJO</div>
+                        <div>MIKAELLA L. FERRER</div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ROW 3 -->
+
+        <div class="row secondary-row-three">
+
+            <div class="col-md-4">
+
+                <div class="entourage-group">
+
+                    <h2 class="group-title">
+                        Bible Bearer
+                    </h2>
+
+                    <div class="names">
+
+                        <div>
+                            EMPRESS V. LOPEZ
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="entourage-group">
+
+                    <h2 class="group-title">
+                        Ring Bearer
+                    </h2>
+
+                    <div class="names">
+
+                        <div>
+                            JANLLOYD J. CALLEJO
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="entourage-group">
+
+                    <h2 class="group-title">
+                        Coin Bearer
+                    </h2>
+
+                    <div class="names">
+
+                        <div>
+                            ALYSSA LOPEZ
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- FLOWER GIRLS -->
+
+        <div class="row flower-girls">
+
+            <div class="col-12">
+
+                <div class="entourage-group">
+
+                    <h2 class="group-title">
+                        Flower Girls
+                    </h2>
+
+                    <div class="names">
+
+                        <div>
+                            BAI JAMEELA S. FERRER
+                        </div>
+
+                        <div>
+                            ZIAH D. MARZAN
+                        </div>
+
+                        <div>
+                            NATHALIE L. NIMEZ
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     DETAILS / ATTIRE GUIDE
+========================================================= -->
+
+<section class="details-page">
+
+    <div class="details-content">
+
+        <header class="header">
+
+            <div class="script-title">
+                The
+            </div>
+
+            <h1 class="main-title">
+                DETAILS
+            </h1>
+
+            <div class="subtitle">
+                Attire Guide
+            </div>
+
+            <p class="intro">
+                WE ENCOURAGE YOU TO DRESS ACCORDING TO OUR WEDDING THEME
+            </p>
+
+        </header>
+
+
+        <div class="container-fluid px-0">
+
+            <div class="row attire-row g-4">
+
+
+                <!-- PRINCIPAL SPONSOR -->
+
+                <div class="col-lg-7 attire-column">
+
+                    <div class="text-center">
+
+                        <h2 class="column-title">
+                            FOR PRINCIPAL SPONSOR:
+                        </h2>
+
+                        <p class="description">
+
+                            Gown that compliments Burgundy/Maroon
+                            color for the Ladies.<br>
+
+                            Suit and tie or Barong and Slack Pants
+                            for the Gents.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="model-container">
+
+                        <img
+                            src="pic/pic1.png"
+                            alt="Principal sponsor attire"
+                            class="model-image left-model"
+                        >
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- GUESTS -->
+
+                <div class="col-lg-5 attire-column">
+
+                    <div class="text-center">
+
+                        <h2 class="column-title">
+                            FOR GUESTS:
+                        </h2>
+
+                        <p class="description">
+
+                            Formal or Semi-Formal that<br>
+                            compliments these color.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="model-container">
+
+                        <img
+                            src="pic/pic2.png"
+                            alt="Guest attire"
+                            class="model-image right-model"
+                        >
+
+                    </div>
+
+
+                    <div class="swatches">
+
+                        <div
+                            class="swatch swatch-dark"
+                            title="Dark Burgundy">
+                        </div>
+
+                        <div
+                            class="swatch swatch-rose"
+                            title="Dusty Rose">
+                        </div>
+
+                        <div
+                            class="swatch swatch-white"
+                            title="White">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     GIFT GUIDE
+========================================================= -->
+
+<section class="gift-page">
+
+    <div class="gift-content">
+
+
+        <div class="gift-block">
+
+            <h2 class="gift-script">
+                Gift Guide
+            </h2>
+
+            <p class="gift-text">
+
+                With all that we have, we are truly blessed.<br>
+
+                Your presence and prayers are all we request.
+                However, if you are considering of giving a gift to<br>
+
+                help us on our way, a monetary gift would be greatly
+                appreciated to support us after tying the<br>
+
+                knot. Please feel free to surprise us.
+
+            </p>
+
+        </div>
+
+
+        <div class="gift-block">
+
+            <h2 class="gift-script">
+                Adult Only
+            </h2>
+
+            <p class="gift-text">
+
+                We love your little ones! However, we have decided
+                to keep our wedding and reception an adult-<br>
+
+                only event with the exception of immediate family.
+
+            </p>
+
+        </div>
+
+
+        <div class="gift-block">
+
+            <div class="verse-reference">
+                COLOSSIANS 3:14
+            </div>
+
+            <p class="verse">
+
+                “And above all these, put on love, which binds
+                everything together in<br>
+
+                perfect harmony.”
+
+            </p>
+
+        </div>
+
+
+        <div class="gift-block">
+
+            <p class="small-message">
+
+                OUR HEARTS ARE FULL, AND WE CAN’T WAIT TO SHARE THIS JOY<br>
+
+                WITH THE PEOPLE WHO MATTER MOST.
+
+            </p>
+
+            <h2 class="final-message">
+                See you in our big day!
+            </h2>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     RSVP
+========================================================= -->
+
+<section
+    class="rsvp-page"
+    id="rsvp"
+>
+
+    <div class="rsvp-content">
+
+
+        <div class="rsvp-kindly-top">
+            Kindly
+        </div>
+
+
+        <h1 class="rsvp-respond">
+            RESPOND
+        </h1>
+
+
+        <div class="rsvp-kindly">
+            Kindly
+        </div>
+
+
+        <div class="rsvp-main-row">
+
+            <div class="rsvp-by">
+
+                BY
+                <strong>
+                    26<sup>TH</sup> OF
+                </strong>
+
+                <div class="rsvp-date">
+                    AUGUST 2026
+                </div>
+
+            </div>
+
+
+            <div class="rsvp-large">
+                RSVP
+            </div>
+
+        </div>
+
+
+        <p class="seat-message">
+
+            WE HAVE RESERVED 1 SEAT (S) FOR YOU.
+
+        </p>
+
+
+        <div class="rsvp-instructions">
+
+            <p>
+
+                THE FAVOR OF YOUR RESPONSE IS REQUESTED<br>
+
+                KINDLY REPLY VIA FACEBOOK MESSENGER
+
+            </p>
+
+
+            <p>
+
+                UNFORTUNATELY, DUE TO SPACE AND SEATING CONSTRAINTS,
+                WE KINDLY ASK<br>
+
+                FOR YOUR UNDERSTANDING THAT WE CANNOT ACCOMMODATE
+                OUR LOVELY<br>
+
+                GUEST TO BRING A GUEST OF THEIR OWN.<br>
+
+                THEREFORE, WE REQUEST OUR GUEST
+                <u>NOT TO BRING PLUS ONE</u>,
+                UNLESS THEY ARE<br>
+
+                SPECIFICALLY STATED ON THE INVITATION.
+
+            </p>
+
+        </div>
+
+
+        <p class="rsvp-final">
+
+            WE TRULY APPRECIATE YOUR UNDERSTANDING.
+
+        </p>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     BOOTSTRAP JAVASCRIPT
+========================================================= -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+</script>
+
+
+</body>
+</html>
